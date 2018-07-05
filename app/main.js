@@ -623,6 +623,7 @@ function getTrayMenu () {
   }, {
     label: i18next.t('main.quitStretchly'),
     click: function () {
+      // quit app from menu
       app.quit()
     }
   })
